@@ -19,7 +19,7 @@ const MemberList = props => {
     };
 
     return (
-      <div style={{border:"3px solid black", padding:"30px", marginRight:"25%", marginLeft:"25%",}}>
+      <div style={{border:"3px solid black", padding:"30px", marginRight:"25%", marginLeft:"25%", backgroundColor:"lightgrey",}}>
         <form onSubmit={submitHandler}>
           <h1>Add New Member:</h1>
           <label htmlFor="name">Name:</label>
