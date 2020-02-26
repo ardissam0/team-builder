@@ -8,7 +8,8 @@ function App() {
   const [member, setMember] = useState([])
 
   const addNewMember = memberInfo => {
-    const newMember = { id: Date.now(), 
+    const newMember = {
+      id: Date.now(), 
       name: memberInfo.name, 
       email: memberInfo.email, 
       role: memberInfo.role };
