@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 
-const MemberList = props => {
+const Form = props => {
     const [member, setMember] = useState({
         id: Date.now(),
         name: '',
@@ -62,4 +62,4 @@ const MemberList = props => {
   };
 
 
-export default MemberList;
+export default Form;

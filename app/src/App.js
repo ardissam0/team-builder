@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 import Member from "./Member"
-import MemberList from "./MemberList";
+import Form from "./Form";
 
 function App() {
   const [member, setMember] = useState([])
@@ -18,7 +18,7 @@ function App() {
 
   return(
     <div>
-      <MemberList addNewMember={ addNewMember } />
+      <Form addNewMember={ addNewMember } />
       <Member member={ member } />
     </div>
   );
