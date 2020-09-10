@@ -19,9 +19,9 @@ const Form = props => {
     };
 
     return (
-      <div style={{border:"3px solid black", padding:"30px", marginRight:"25%", marginLeft:"25%", backgroundColor:"lightgrey",}}>
-        <form onSubmit={submitHandler}>
-          <h1>Add New Member:</h1>
+      <div style={{borderBottom: '3px solid black', marginRight:"5%", marginLeft:"5%",}}>
+        <form style={{padding:"30px", }} onSubmit={submitHandler}>
+          <h1>Add Member:</h1>
           <label htmlFor="name">Name:</label>
           <br />
           <input
@@ -53,7 +53,7 @@ const Form = props => {
           <br/>
           <br/>
           <label htmlFor="addMember"></label>
-          <button type="submit" id="addMember"> Submit</button>
+          <button type="submit" id="addMember" style ={{background: "black", color: 'white', fontWeight: 'bold', border: '1px solid black'}}> Submit</button>
           <br/>
           <br/>
         </form>
